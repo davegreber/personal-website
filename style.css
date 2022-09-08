@@ -1,3 +1,17 @@
 body {
-    background: blue;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/6187b7ac6e78f3137dc9e8d4/4bc59b81-acb1-4203-b677-96ec04401d83/casebearer_dave_greber_nft_1.jpg);
+    background-color: #cccccc;
+    background-size: cover;
+}
+
+img {
+    border: 10px solid rgb(73, 74, 77);
+    display: block;
+  max-width:50%;
+  max-height:50%;
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
   }
+
