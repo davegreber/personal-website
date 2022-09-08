@@ -1,3 +1,3 @@
 # My Personal Website
 
-"Hi! I'm Dave Greber. Aspiring programmer and established digital artist" 
+"Hi! I'm Dave Greber. Emerging programmer and established digital artist" 
