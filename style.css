@@ -5,7 +5,7 @@ body {
 }
 
 img {
-    border: 10px solid rgb(73, 74, 77);
+    border: 10px solid rgb(159, 159, 159);
     display: block;
   max-width:50%;
   max-height:50%;
@@ -15,3 +15,13 @@ img {
   margin-right: auto;
   }
 
+p {
+    margin: auto;
+    width: 50%;
+    border: 1px solid red;
+    padding: 9px;
+    background-color: rgba(0, 67, 2, 0.713);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: #cccccc;
+}
