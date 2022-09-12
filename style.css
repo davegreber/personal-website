@@ -1,10 +1,22 @@
+a {
+color: yellow
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: hotpink;
+  }
+
 body {
-    background-image: url(https://images.squarespace-cdn.com/content/v1/6187b7ac6e78f3137dc9e8d4/4bc59b81-acb1-4203-b677-96ec04401d83/casebearer_dave_greber_nft_1.jpg);
+    background-image: url("https://images.squarespace-cdn.com/content/v1/56f45f69b6aa60e521bfd399/b7b038be-bed7-4e60-a05e-915c60887e01/QmX2WE2HaHqSMX72nrdz8hkiB3MmKuaEkGLGnrqZBZSetk.gif?format=750w");
     background-color: #cccccc;
     background-size: cover;
 }
 
-img {
+#headshot img {
     border: 10px solid rgb(159, 159, 159);
     display: block;
   max-width:50%;
@@ -13,6 +25,7 @@ img {
   height: auto;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
   }
 
 p {
@@ -24,4 +37,63 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     color: #cccccc;
+    position: relative;
+}
+
+.x {
+  
+}
+
+ #studio {
+    display: block;
+    max-width:51.5%;
+    max-height:51.5%;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 790px;
+    height: 250px;
+    border: 1px solid red;
+}
+
+.x #keyboard {
+    transform: rotate(90deg);
+    position: fixed;
+    bottom: 0;
+    left: -50px;
+    width: 300px;
+    height: 200px;
+    border: 3px solid #73AD21;
+    
+}
+
+.x #keyboard2 {
+    transform: rotate(-90deg);
+    position: fixed;
+    bottom: 0;
+    right: -50px;
+    width: 300px;
+    height: 200px;
+    border: 3px solid #73AD21;
+    
+}
+
+.x #matrix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 300px;
+    border: 3px solid #73AD21;
+}
+
+.x #matrix2 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 300px;
+    filter:  hue-rotate(260deg);
+    border: 3px solid #675fff;
 }
